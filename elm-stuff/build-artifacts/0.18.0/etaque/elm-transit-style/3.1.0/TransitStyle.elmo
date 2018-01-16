@@ -1,0 +1,136 @@
+var _etaque$elm_transit_style$TransitStyle$scaleXY = function (v) {
+	var target = _elm_lang$core$String$concat(
+		{
+			ctor: '::',
+			_0: 'scale(',
+			_1: {
+				ctor: '::',
+				_0: _elm_lang$core$Basics$toString(v),
+				_1: {
+					ctor: '::',
+					_0: ',',
+					_1: {
+						ctor: '::',
+						_0: _elm_lang$core$Basics$toString(v),
+						_1: {
+							ctor: '::',
+							_0: ')',
+							_1: {ctor: '[]'}
+						}
+					}
+				}
+			}
+		});
+	return {
+		ctor: '::',
+		_0: {ctor: '_Tuple2', _0: 'transform', _1: target},
+		_1: {ctor: '[]'}
+	};
+};
+var _etaque$elm_transit_style$TransitStyle$translateX = function (v) {
+	return {
+		ctor: '::',
+		_0: {
+			ctor: '_Tuple2',
+			_0: 'transform',
+			_1: A2(
+				_elm_lang$core$Basics_ops['++'],
+				'translateX(',
+				A2(
+					_elm_lang$core$Basics_ops['++'],
+					_elm_lang$core$Basics$toString(v),
+					'px)'))
+		},
+		_1: {ctor: '[]'}
+	};
+};
+var _etaque$elm_transit_style$TransitStyle$opacity = function (v) {
+	return {
+		ctor: '::',
+		_0: {
+			ctor: '_Tuple2',
+			_0: 'opacity',
+			_1: _elm_lang$core$Basics$toString(v)
+		},
+		_1: {ctor: '[]'}
+	};
+};
+var _etaque$elm_transit_style$TransitStyle$fadeIn = function (v) {
+	return _etaque$elm_transit_style$TransitStyle$opacity(
+		_elm_community$easing_functions$Ease$outCubic(v));
+};
+var _etaque$elm_transit_style$TransitStyle$fadeOut = function (v) {
+	return _etaque$elm_transit_style$TransitStyle$opacity(
+		_elm_community$easing_functions$Ease$inCubic(v));
+};
+var _etaque$elm_transit_style$TransitStyle$zoomOut = F2(
+	function (offset, v) {
+		return _etaque$elm_transit_style$TransitStyle$scaleXY(
+			_elm_community$easing_functions$Ease$inCubic((v * offset) + (1 - offset)));
+	});
+var _etaque$elm_transit_style$TransitStyle$zoomIn = F2(
+	function (offset, v) {
+		return _etaque$elm_transit_style$TransitStyle$scaleXY(
+			_elm_community$easing_functions$Ease$linear((v * offset) + (1 - offset)));
+	});
+var _etaque$elm_transit_style$TransitStyle$slideIn = F2(
+	function (offset, v) {
+		return _etaque$elm_transit_style$TransitStyle$translateX(
+			_elm_community$easing_functions$Ease$inCubic(1 - v) * offset);
+	});
+var _etaque$elm_transit_style$TransitStyle$slideOut = F2(
+	function (offset, v) {
+		return _etaque$elm_transit_style$TransitStyle$translateX(
+			_elm_community$easing_functions$Ease$outCubic(1 - v) * offset);
+	});
+var _etaque$elm_transit_style$TransitStyle$compose = F3(
+	function (exit, enter, transition) {
+		var _p0 = {
+			ctor: '_Tuple2',
+			_0: _etaque$elm_transit$Transit$getStep(transition),
+			_1: _etaque$elm_transit$Transit$getValue(transition)
+		};
+		_v0_2:
+		do {
+			if (_p0.ctor === '_Tuple2') {
+				switch (_p0._0.ctor) {
+					case 'Exit':
+						return exit(_p0._1);
+					case 'Enter':
+						return enter(_p0._1);
+					default:
+						break _v0_2;
+				}
+			} else {
+				break _v0_2;
+			}
+		} while(false);
+		return {ctor: '[]'};
+	});
+var _etaque$elm_transit_style$TransitStyle$slide = function (offset) {
+	return A2(
+		_etaque$elm_transit_style$TransitStyle$compose,
+		_etaque$elm_transit_style$TransitStyle$slideOut(offset),
+		_etaque$elm_transit_style$TransitStyle$slideIn(offset));
+};
+var _etaque$elm_transit_style$TransitStyle$zoom = function (offset) {
+	return A2(
+		_etaque$elm_transit_style$TransitStyle$compose,
+		_etaque$elm_transit_style$TransitStyle$zoomOut(offset),
+		_etaque$elm_transit_style$TransitStyle$zoomIn(offset));
+};
+var _etaque$elm_transit_style$TransitStyle$fade = A2(_etaque$elm_transit_style$TransitStyle$compose, _etaque$elm_transit_style$TransitStyle$fadeOut, _etaque$elm_transit_style$TransitStyle$fadeIn);
+var _etaque$elm_transit_style$TransitStyle$fadeSlide = F2(
+	function (offset, t) {
+		return A2(
+			_elm_lang$core$Basics_ops['++'],
+			A2(_etaque$elm_transit_style$TransitStyle$slide, offset, t),
+			_etaque$elm_transit_style$TransitStyle$fade(t));
+	});
+var _etaque$elm_transit_style$TransitStyle$fadeZoom = F2(
+	function (offset, t) {
+		return A2(
+			_elm_lang$core$Basics_ops['++'],
+			A2(_etaque$elm_transit_style$TransitStyle$zoom, offset, t),
+			_etaque$elm_transit_style$TransitStyle$fade(t));
+	});

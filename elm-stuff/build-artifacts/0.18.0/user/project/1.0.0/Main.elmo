@@ -1,0 +1,1743 @@
+var _user$project$Main$pageNotFound = function (model) {
+	return {
+		ctor: '::',
+		_0: A2(
+			_elm_lang$html$Html$div,
+			{ctor: '[]'},
+			{
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$div,
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$class('color-change'),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$id('top'),
+							_1: {ctor: '[]'}
+						}
+					},
+					{
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$a,
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$href('/'),
+								_1: {ctor: '[]'}
+							},
+							{
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html$img,
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$class('home'),
+										_1: {
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$src('assets/home.png'),
+											_1: {ctor: '[]'}
+										}
+									},
+									{ctor: '[]'}),
+								_1: {ctor: '[]'}
+							}),
+						_1: {ctor: '[]'}
+					}),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_elm_lang$html$Html$div,
+						{
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$id('preface'),
+							_1: {ctor: '[]'}
+						},
+						{
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$div,
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$class('layout-full'),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$id('divNotFound'),
+										_1: {ctor: '[]'}
+									}
+								},
+								{
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$div,
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$class('header'),
+											_1: {ctor: '[]'}
+										},
+										{
+											ctor: '::',
+											_0: A2(
+												_elm_lang$html$Html$h1,
+												{ctor: '[]'},
+												{
+													ctor: '::',
+													_0: _elm_lang$html$Html$text(model.notFoundContent.title),
+													_1: {ctor: '[]'}
+												}),
+											_1: {
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$img,
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html_Attributes$class('preface'),
+														_1: {
+															ctor: '::',
+															_0: _elm_lang$html$Html_Attributes$src('assets/7_seven.jpg'),
+															_1: {ctor: '[]'}
+														}
+													},
+													{ctor: '[]'}),
+												_1: {ctor: '[]'}
+											}
+										}),
+									_1: {
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$div,
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$class('text-container'),
+												_1: {ctor: '[]'}
+											},
+											{
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$h4,
+													{ctor: '[]'},
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html$text(model.notFoundContent.subTitle),
+														_1: {ctor: '[]'}
+													}),
+												_1: {
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$p,
+														{ctor: '[]'},
+														{
+															ctor: '::',
+															_0: _elm_lang$html$Html$text(model.notFoundContent.paragraph1),
+															_1: {ctor: '[]'}
+														}),
+													_1: {
+														ctor: '::',
+														_0: A2(
+															_elm_lang$html$Html$a,
+															{
+																ctor: '::',
+																_0: _elm_lang$html$Html_Attributes$href(model.nextContent.emailAddressAttr),
+																_1: {ctor: '[]'}
+															},
+															{
+																ctor: '::',
+																_0: _elm_lang$html$Html$text(model.nextContent.emailAddress),
+																_1: {ctor: '[]'}
+															}),
+														_1: {ctor: '[]'}
+													}
+												}
+											}),
+										_1: {ctor: '[]'}
+									}
+								}),
+							_1: {ctor: '[]'}
+						}),
+					_1: {ctor: '[]'}
+				}
+			}),
+		_1: {ctor: '[]'}
+	};
+};
+var _user$project$Main$nextStuff = function (model) {
+	return {
+		ctor: '::',
+		_0: A2(
+			_elm_lang$html$Html$div,
+			{ctor: '[]'},
+			{
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$div,
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$class('color-change'),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$id('top'),
+							_1: {ctor: '[]'}
+						}
+					},
+					{
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$a,
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$href('/'),
+								_1: {ctor: '[]'}
+							},
+							{
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html$img,
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$class('home'),
+										_1: {
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$src('assets/home.png'),
+											_1: {ctor: '[]'}
+										}
+									},
+									{ctor: '[]'}),
+								_1: {ctor: '[]'}
+							}),
+						_1: {ctor: '[]'}
+					}),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_elm_lang$html$Html$div,
+						{
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$id('preface'),
+							_1: {ctor: '[]'}
+						},
+						{
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$div,
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$class('layout-full'),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$id('divNextStuff'),
+										_1: {ctor: '[]'}
+									}
+								},
+								{
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$div,
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$class('header'),
+											_1: {ctor: '[]'}
+										},
+										{
+											ctor: '::',
+											_0: A2(
+												_elm_lang$html$Html$h1,
+												{ctor: '[]'},
+												{
+													ctor: '::',
+													_0: _elm_lang$html$Html$text(model.nextContent.title),
+													_1: {ctor: '[]'}
+												}),
+											_1: {
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$img,
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html_Attributes$class('preface'),
+														_1: {
+															ctor: '::',
+															_0: _elm_lang$html$Html_Attributes$src('assets/5_five.jpg'),
+															_1: {ctor: '[]'}
+														}
+													},
+													{ctor: '[]'}),
+												_1: {ctor: '[]'}
+											}
+										}),
+									_1: {
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$div,
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$class('text-container'),
+												_1: {ctor: '[]'}
+											},
+											{
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$p,
+													{ctor: '[]'},
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html$text(model.nextContent.introParagraph),
+														_1: {ctor: '[]'}
+													}),
+												_1: {
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$h2,
+														{ctor: '[]'},
+														{
+															ctor: '::',
+															_0: _elm_lang$html$Html$text(model.nextContent.workHeader),
+															_1: {ctor: '[]'}
+														}),
+													_1: {
+														ctor: '::',
+														_0: A2(
+															_elm_lang$html$Html$h5,
+															{ctor: '[]'},
+															{
+																ctor: '::',
+																_0: _elm_lang$html$Html$text(model.nextContent.workTitle1),
+																_1: {ctor: '[]'}
+															}),
+														_1: {
+															ctor: '::',
+															_0: A2(
+																_elm_lang$html$Html$p,
+																{ctor: '[]'},
+																{
+																	ctor: '::',
+																	_0: _elm_lang$html$Html$text(model.nextContent.workExp1),
+																	_1: {ctor: '[]'}
+																}),
+															_1: {
+																ctor: '::',
+																_0: A2(
+																	_elm_lang$html$Html$h5,
+																	{ctor: '[]'},
+																	{
+																		ctor: '::',
+																		_0: _elm_lang$html$Html$text(model.nextContent.workTitle2),
+																		_1: {ctor: '[]'}
+																	}),
+																_1: {
+																	ctor: '::',
+																	_0: A2(
+																		_elm_lang$html$Html$p,
+																		{ctor: '[]'},
+																		{
+																			ctor: '::',
+																			_0: _elm_lang$html$Html$text(model.nextContent.workExp2),
+																			_1: {ctor: '[]'}
+																		}),
+																	_1: {
+																		ctor: '::',
+																		_0: A2(
+																			_elm_lang$html$Html$h5,
+																			{ctor: '[]'},
+																			{
+																				ctor: '::',
+																				_0: _elm_lang$html$Html$text(model.nextContent.workTitle3),
+																				_1: {ctor: '[]'}
+																			}),
+																		_1: {
+																			ctor: '::',
+																			_0: A2(
+																				_elm_lang$html$Html$p,
+																				{ctor: '[]'},
+																				{
+																					ctor: '::',
+																					_0: _elm_lang$html$Html$text(model.nextContent.workExp3),
+																					_1: {ctor: '[]'}
+																				}),
+																			_1: {
+																				ctor: '::',
+																				_0: A2(
+																					_elm_lang$html$Html$h2,
+																					{ctor: '[]'},
+																					{
+																						ctor: '::',
+																						_0: _elm_lang$html$Html$text(model.nextContent.stackHeader),
+																						_1: {ctor: '[]'}
+																					}),
+																				_1: {
+																					ctor: '::',
+																					_0: A2(
+																						_elm_lang$html$Html$p,
+																						{ctor: '[]'},
+																						{
+																							ctor: '::',
+																							_0: _elm_lang$html$Html$text(model.nextContent.techStack1),
+																							_1: {ctor: '[]'}
+																						}),
+																					_1: {
+																						ctor: '::',
+																						_0: A2(
+																							_elm_lang$html$Html$p,
+																							{ctor: '[]'},
+																							{
+																								ctor: '::',
+																								_0: _elm_lang$html$Html$text(model.nextContent.techStack2),
+																								_1: {ctor: '[]'}
+																							}),
+																						_1: {
+																							ctor: '::',
+																							_0: A2(
+																								_elm_lang$html$Html$p,
+																								{ctor: '[]'},
+																								{
+																									ctor: '::',
+																									_0: _elm_lang$html$Html$text(model.nextContent.techStack3),
+																									_1: {ctor: '[]'}
+																								}),
+																							_1: {
+																								ctor: '::',
+																								_0: A2(
+																									_elm_lang$html$Html$h2,
+																									{ctor: '[]'},
+																									{
+																										ctor: '::',
+																										_0: _elm_lang$html$Html$text(model.nextContent.finalHeader),
+																										_1: {ctor: '[]'}
+																									}),
+																								_1: {
+																									ctor: '::',
+																									_0: A2(
+																										_elm_lang$html$Html$ul,
+																										{ctor: '[]'},
+																										{
+																											ctor: '::',
+																											_0: A2(
+																												_elm_lang$html$Html$li,
+																												{ctor: '[]'},
+																												{
+																													ctor: '::',
+																													_0: A2(
+																														_elm_lang$html$Html$a,
+																														{
+																															ctor: '::',
+																															_0: _elm_lang$html$Html_Attributes$href(model.nextContent.emailAddressAttr),
+																															_1: {ctor: '[]'}
+																														},
+																														{
+																															ctor: '::',
+																															_0: _elm_lang$html$Html$text(model.nextContent.emailAddress),
+																															_1: {ctor: '[]'}
+																														}),
+																													_1: {ctor: '[]'}
+																												}),
+																											_1: {
+																												ctor: '::',
+																												_0: A2(
+																													_elm_lang$html$Html$li,
+																													{ctor: '[]'},
+																													{
+																														ctor: '::',
+																														_0: A2(
+																															_elm_lang$html$Html$a,
+																															{
+																																ctor: '::',
+																																_0: _elm_lang$html$Html_Attributes$href(model.nextContent.phoneNumberAttr),
+																																_1: {ctor: '[]'}
+																															},
+																															{
+																																ctor: '::',
+																																_0: _elm_lang$html$Html$text(model.nextContent.phoneNumber),
+																																_1: {ctor: '[]'}
+																															}),
+																														_1: {ctor: '[]'}
+																													}),
+																												_1: {
+																													ctor: '::',
+																													_0: A2(
+																														_elm_lang$html$Html$li,
+																														{ctor: '[]'},
+																														{
+																															ctor: '::',
+																															_0: A2(
+																																_elm_lang$html$Html$a,
+																																{
+																																	ctor: '::',
+																																	_0: _elm_lang$html$Html_Attributes$href(model.nextContent.githubLink),
+																																	_1: {
+																																		ctor: '::',
+																																		_0: _elm_lang$html$Html_Attributes$target('_blank'),
+																																		_1: {ctor: '[]'}
+																																	}
+																																},
+																																{
+																																	ctor: '::',
+																																	_0: _elm_lang$html$Html$text('Github (Source)'),
+																																	_1: {ctor: '[]'}
+																																}),
+																															_1: {ctor: '[]'}
+																														}),
+																													_1: {ctor: '[]'}
+																												}
+																											}
+																										}),
+																									_1: {ctor: '[]'}
+																								}
+																							}
+																						}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}),
+										_1: {ctor: '[]'}
+									}
+								}),
+							_1: {ctor: '[]'}
+						}),
+					_1: {ctor: '[]'}
+				}
+			}),
+		_1: {ctor: '[]'}
+	};
+};
+var _user$project$Main$philosophies = function (model) {
+	return {
+		ctor: '::',
+		_0: A2(
+			_elm_lang$html$Html$div,
+			{ctor: '[]'},
+			{
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$div,
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$class('color-change'),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$id('top'),
+							_1: {ctor: '[]'}
+						}
+					},
+					{
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$a,
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$href('/'),
+								_1: {ctor: '[]'}
+							},
+							{
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html$img,
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$class('home'),
+										_1: {
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$src('assets/home.png'),
+											_1: {ctor: '[]'}
+										}
+									},
+									{ctor: '[]'}),
+								_1: {ctor: '[]'}
+							}),
+						_1: {ctor: '[]'}
+					}),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_elm_lang$html$Html$div,
+						{
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$id('preface'),
+							_1: {ctor: '[]'}
+						},
+						{
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$div,
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$class('layout-full'),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$id('divPhilosophies'),
+										_1: {ctor: '[]'}
+									}
+								},
+								{
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$div,
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$class('header'),
+											_1: {ctor: '[]'}
+										},
+										{
+											ctor: '::',
+											_0: A2(
+												_elm_lang$html$Html$h1,
+												{ctor: '[]'},
+												{
+													ctor: '::',
+													_0: _elm_lang$html$Html$text(model.philosophyContent.title),
+													_1: {ctor: '[]'}
+												}),
+											_1: {
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$img,
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html_Attributes$class('preface'),
+														_1: {
+															ctor: '::',
+															_0: _elm_lang$html$Html_Attributes$src('assets/4_four.jpg'),
+															_1: {ctor: '[]'}
+														}
+													},
+													{ctor: '[]'}),
+												_1: {ctor: '[]'}
+											}
+										}),
+									_1: {
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$div,
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$class('text-container'),
+												_1: {ctor: '[]'}
+											},
+											{
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$h4,
+													{ctor: '[]'},
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html$text(model.philosophyContent.subTitle),
+														_1: {ctor: '[]'}
+													}),
+												_1: {
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$p,
+														{ctor: '[]'},
+														{
+															ctor: '::',
+															_0: _elm_lang$html$Html$text(model.philosophyContent.paragraph1),
+															_1: {ctor: '[]'}
+														}),
+													_1: {
+														ctor: '::',
+														_0: A2(
+															_elm_lang$html$Html$p,
+															{ctor: '[]'},
+															{
+																ctor: '::',
+																_0: _elm_lang$html$Html$text(model.philosophyContent.paragraph2),
+																_1: {ctor: '[]'}
+															}),
+														_1: {ctor: '[]'}
+													}
+												}
+											}),
+										_1: {ctor: '[]'}
+									}
+								}),
+							_1: {ctor: '[]'}
+						}),
+					_1: {ctor: '[]'}
+				}
+			}),
+		_1: {ctor: '[]'}
+	};
+};
+var _user$project$Main$lifeChanging = function (model) {
+	return {
+		ctor: '::',
+		_0: A2(
+			_elm_lang$html$Html$div,
+			{ctor: '[]'},
+			{
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$div,
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$class('color-change'),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$id('top'),
+							_1: {ctor: '[]'}
+						}
+					},
+					{
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$a,
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$href('/'),
+								_1: {ctor: '[]'}
+							},
+							{
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html$img,
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$class('home'),
+										_1: {
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$src('assets/home.png'),
+											_1: {ctor: '[]'}
+										}
+									},
+									{ctor: '[]'}),
+								_1: {ctor: '[]'}
+							}),
+						_1: {ctor: '[]'}
+					}),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_elm_lang$html$Html$div,
+						{
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$id('preface'),
+							_1: {ctor: '[]'}
+						},
+						{
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$div,
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$class('layout-full'),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$id('divLifeChanging'),
+										_1: {ctor: '[]'}
+									}
+								},
+								{
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$div,
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$class('header'),
+											_1: {ctor: '[]'}
+										},
+										{
+											ctor: '::',
+											_0: A2(
+												_elm_lang$html$Html$h1,
+												{ctor: '[]'},
+												{
+													ctor: '::',
+													_0: _elm_lang$html$Html$text(model.lifeContent.title),
+													_1: {ctor: '[]'}
+												}),
+											_1: {
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$img,
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html_Attributes$class('preface'),
+														_1: {
+															ctor: '::',
+															_0: _elm_lang$html$Html_Attributes$src('assets/3_three.jpg'),
+															_1: {ctor: '[]'}
+														}
+													},
+													{ctor: '[]'}),
+												_1: {ctor: '[]'}
+											}
+										}),
+									_1: {
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$div,
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$class('text-container'),
+												_1: {ctor: '[]'}
+											},
+											{
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$h4,
+													{ctor: '[]'},
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html$text(model.lifeContent.subTitle),
+														_1: {ctor: '[]'}
+													}),
+												_1: {
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$ul,
+														{ctor: '[]'},
+														{
+															ctor: '::',
+															_0: A2(
+																_elm_lang$html$Html$li,
+																{ctor: '[]'},
+																{
+																	ctor: '::',
+																	_0: _elm_lang$html$Html$text(model.lifeContent.paragraph1),
+																	_1: {ctor: '[]'}
+																}),
+															_1: {
+																ctor: '::',
+																_0: A2(
+																	_elm_lang$html$Html$li,
+																	{ctor: '[]'},
+																	{
+																		ctor: '::',
+																		_0: _elm_lang$html$Html$text(model.lifeContent.paragraph2),
+																		_1: {ctor: '[]'}
+																	}),
+																_1: {
+																	ctor: '::',
+																	_0: A2(
+																		_elm_lang$html$Html$li,
+																		{ctor: '[]'},
+																		{
+																			ctor: '::',
+																			_0: _elm_lang$html$Html$text(model.lifeContent.paragraph3),
+																			_1: {ctor: '[]'}
+																		}),
+																	_1: {
+																		ctor: '::',
+																		_0: A2(
+																			_elm_lang$html$Html$li,
+																			{ctor: '[]'},
+																			{
+																				ctor: '::',
+																				_0: _elm_lang$html$Html$text(model.lifeContent.paragraph4),
+																				_1: {ctor: '[]'}
+																			}),
+																		_1: {ctor: '[]'}
+																	}
+																}
+															}
+														}),
+													_1: {
+														ctor: '::',
+														_0: A2(
+															_elm_lang$html$Html$p,
+															{ctor: '[]'},
+															{
+																ctor: '::',
+																_0: _elm_lang$html$Html$text(model.lifeContent.paragraph5),
+																_1: {ctor: '[]'}
+															}),
+														_1: {ctor: '[]'}
+													}
+												}
+											}),
+										_1: {ctor: '[]'}
+									}
+								}),
+							_1: {ctor: '[]'}
+						}),
+					_1: {ctor: '[]'}
+				}
+			}),
+		_1: {ctor: '[]'}
+	};
+};
+var _user$project$Main$fittingIn = function (model) {
+	return {
+		ctor: '::',
+		_0: A2(
+			_elm_lang$html$Html$div,
+			{ctor: '[]'},
+			{
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$div,
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$class('color-change'),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$id('top'),
+							_1: {ctor: '[]'}
+						}
+					},
+					{
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$a,
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$href('/'),
+								_1: {ctor: '[]'}
+							},
+							{
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html$img,
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$class('home'),
+										_1: {
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$src('assets/home.png'),
+											_1: {ctor: '[]'}
+										}
+									},
+									{ctor: '[]'}),
+								_1: {ctor: '[]'}
+							}),
+						_1: {ctor: '[]'}
+					}),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_elm_lang$html$Html$div,
+						{
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$id('preface'),
+							_1: {ctor: '[]'}
+						},
+						{
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$div,
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$class('layout-full'),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$id('divFittingIn'),
+										_1: {ctor: '[]'}
+									}
+								},
+								{
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$div,
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$class('header'),
+											_1: {ctor: '[]'}
+										},
+										{
+											ctor: '::',
+											_0: A2(
+												_elm_lang$html$Html$h1,
+												{ctor: '[]'},
+												{
+													ctor: '::',
+													_0: _elm_lang$html$Html$text(model.fitContent.title),
+													_1: {ctor: '[]'}
+												}),
+											_1: {
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$img,
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html_Attributes$class('preface'),
+														_1: {
+															ctor: '::',
+															_0: _elm_lang$html$Html_Attributes$src('assets/2_two.jpg'),
+															_1: {ctor: '[]'}
+														}
+													},
+													{ctor: '[]'}),
+												_1: {ctor: '[]'}
+											}
+										}),
+									_1: {
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$div,
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$class('text-container'),
+												_1: {ctor: '[]'}
+											},
+											{
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$h4,
+													{ctor: '[]'},
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html$text(model.fitContent.subTitle),
+														_1: {ctor: '[]'}
+													}),
+												_1: {
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$p,
+														{ctor: '[]'},
+														{
+															ctor: '::',
+															_0: _elm_lang$html$Html$text(model.fitContent.paragraph1),
+															_1: {ctor: '[]'}
+														}),
+													_1: {
+														ctor: '::',
+														_0: A2(
+															_elm_lang$html$Html$p,
+															{ctor: '[]'},
+															{
+																ctor: '::',
+																_0: _elm_lang$html$Html$text(model.fitContent.paragraph2),
+																_1: {ctor: '[]'}
+															}),
+														_1: {
+															ctor: '::',
+															_0: A2(
+																_elm_lang$html$Html$p,
+																{ctor: '[]'},
+																{
+																	ctor: '::',
+																	_0: _elm_lang$html$Html$text(model.fitContent.paragraph3),
+																	_1: {ctor: '[]'}
+																}),
+															_1: {
+																ctor: '::',
+																_0: A2(
+																	_elm_lang$html$Html$p,
+																	{ctor: '[]'},
+																	{
+																		ctor: '::',
+																		_0: _elm_lang$html$Html$text(model.fitContent.paragraph4),
+																		_1: {ctor: '[]'}
+																	}),
+																_1: {ctor: '[]'}
+															}
+														}
+													}
+												}
+											}),
+										_1: {ctor: '[]'}
+									}
+								}),
+							_1: {ctor: '[]'}
+						}),
+					_1: {ctor: '[]'}
+				}
+			}),
+		_1: {ctor: '[]'}
+	};
+};
+var _user$project$Main$whyNoRedInk = function (model) {
+	return {
+		ctor: '::',
+		_0: A2(
+			_elm_lang$html$Html$div,
+			{ctor: '[]'},
+			{
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$div,
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html_Attributes$class('color-change'),
+						_1: {
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$id('top'),
+							_1: {ctor: '[]'}
+						}
+					},
+					{
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$a,
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$href('/'),
+								_1: {ctor: '[]'}
+							},
+							{
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html$img,
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$class('home'),
+										_1: {
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$src('assets/home.png'),
+											_1: {ctor: '[]'}
+										}
+									},
+									{ctor: '[]'}),
+								_1: {ctor: '[]'}
+							}),
+						_1: {ctor: '[]'}
+					}),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_elm_lang$html$Html$div,
+						{
+							ctor: '::',
+							_0: _elm_lang$html$Html_Attributes$id('preface'),
+							_1: {ctor: '[]'}
+						},
+						{
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$div,
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$class('layout-full'),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$id('divWhyNoRedInk'),
+										_1: {ctor: '[]'}
+									}
+								},
+								{
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$div,
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$class('header'),
+											_1: {ctor: '[]'}
+										},
+										{
+											ctor: '::',
+											_0: A2(
+												_elm_lang$html$Html$h1,
+												{ctor: '[]'},
+												{
+													ctor: '::',
+													_0: _elm_lang$html$Html$text(model.whyContent.title),
+													_1: {ctor: '[]'}
+												}),
+											_1: {
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$img,
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html_Attributes$class('preface'),
+														_1: {
+															ctor: '::',
+															_0: _elm_lang$html$Html_Attributes$src('assets/1_one.jpg'),
+															_1: {ctor: '[]'}
+														}
+													},
+													{ctor: '[]'}),
+												_1: {ctor: '[]'}
+											}
+										}),
+									_1: {
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$div,
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$class('text-container'),
+												_1: {ctor: '[]'}
+											},
+											{
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$p,
+													{ctor: '[]'},
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html$text(model.whyContent.paragraph1),
+														_1: {ctor: '[]'}
+													}),
+												_1: {
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$p,
+														{ctor: '[]'},
+														{
+															ctor: '::',
+															_0: _elm_lang$html$Html$text(model.whyContent.paragraph2),
+															_1: {ctor: '[]'}
+														}),
+													_1: {
+														ctor: '::',
+														_0: A2(
+															_elm_lang$html$Html$p,
+															{ctor: '[]'},
+															{
+																ctor: '::',
+																_0: _elm_lang$html$Html$text(model.whyContent.paragraph3),
+																_1: {ctor: '[]'}
+															}),
+														_1: {ctor: '[]'}
+													}
+												}
+											}),
+										_1: {ctor: '[]'}
+									}
+								}),
+							_1: {ctor: '[]'}
+						}),
+					_1: {ctor: '[]'}
+				}
+			}),
+		_1: {ctor: '[]'}
+	};
+};
+var _user$project$Main$pageHome = function (model) {
+	return {
+		ctor: '::',
+		_0: A2(
+			_elm_lang$html$Html$div,
+			{ctor: '[]'},
+			{
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$div,
+					{ctor: '[]'},
+					{
+						ctor: '::',
+						_0: A2(
+							_elm_lang$html$Html$div,
+							{
+								ctor: '::',
+								_0: _elm_lang$html$Html_Attributes$class('color-change'),
+								_1: {
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$id('left'),
+									_1: {ctor: '[]'}
+								}
+							},
+							{ctor: '[]'}),
+						_1: {
+							ctor: '::',
+							_0: A2(
+								_elm_lang$html$Html$div,
+								{
+									ctor: '::',
+									_0: _elm_lang$html$Html_Attributes$class('color-change'),
+									_1: {
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$id('right'),
+										_1: {ctor: '[]'}
+									}
+								},
+								{ctor: '[]'}),
+							_1: {
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html$div,
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$class('color-change'),
+										_1: {
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$id('top'),
+											_1: {ctor: '[]'}
+										}
+									},
+									{
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$img,
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$class('home'),
+												_1: {
+													ctor: '::',
+													_0: _elm_lang$html$Html_Attributes$src('home.png'),
+													_1: {ctor: '[]'}
+												}
+											},
+											{ctor: '[]'}),
+										_1: {ctor: '[]'}
+									}),
+								_1: {
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$div,
+										{
+											ctor: '::',
+											_0: _elm_lang$html$Html_Attributes$class('color-change'),
+											_1: {
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$id('bottom'),
+												_1: {ctor: '[]'}
+											}
+										},
+										{ctor: '[]'}),
+									_1: {
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$div,
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$class('navigation'),
+												_1: {ctor: '[]'}
+											},
+											{
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$table,
+													{ctor: '[]'},
+													{
+														ctor: '::',
+														_0: A2(
+															_elm_lang$html$Html$tbody,
+															{ctor: '[]'},
+															{
+																ctor: '::',
+																_0: A2(
+																	_elm_lang$html$Html$tr,
+																	{ctor: '[]'},
+																	{
+																		ctor: '::',
+																		_0: A2(
+																			_elm_lang$html$Html$td,
+																			{
+																				ctor: '::',
+																				_0: _elm_lang$html$Html_Attributes$class('intro active'),
+																				_1: {ctor: '[]'}
+																			},
+																			{
+																				ctor: '::',
+																				_0: A2(
+																					_elm_lang$html$Html$a,
+																					{
+																						ctor: '::',
+																						_0: _elm_lang$html$Html_Attributes$href('#why-noredink'),
+																						_1: {ctor: '[]'}
+																					},
+																					{
+																						ctor: '::',
+																						_0: _elm_lang$html$Html$text(model.whyContent.title),
+																						_1: {ctor: '[]'}
+																					}),
+																				_1: {ctor: '[]'}
+																			}),
+																		_1: {ctor: '[]'}
+																	}),
+																_1: {
+																	ctor: '::',
+																	_0: A2(
+																		_elm_lang$html$Html$tr,
+																		{ctor: '[]'},
+																		{
+																			ctor: '::',
+																			_0: A2(
+																				_elm_lang$html$Html$td,
+																				{
+																					ctor: '::',
+																					_0: _elm_lang$html$Html_Attributes$class('preface active'),
+																					_1: {ctor: '[]'}
+																				},
+																				{
+																					ctor: '::',
+																					_0: A2(
+																						_elm_lang$html$Html$a,
+																						{
+																							ctor: '::',
+																							_0: _elm_lang$html$Html_Attributes$href('#fitting-in'),
+																							_1: {ctor: '[]'}
+																						},
+																						{
+																							ctor: '::',
+																							_0: _elm_lang$html$Html$text(model.fitContent.title),
+																							_1: {ctor: '[]'}
+																						}),
+																					_1: {ctor: '[]'}
+																				}),
+																			_1: {ctor: '[]'}
+																		}),
+																	_1: {
+																		ctor: '::',
+																		_0: A2(
+																			_elm_lang$html$Html$tr,
+																			{ctor: '[]'},
+																			{
+																				ctor: '::',
+																				_0: A2(
+																					_elm_lang$html$Html$td,
+																					{
+																						ctor: '::',
+																						_0: _elm_lang$html$Html_Attributes$class('rules active'),
+																						_1: {ctor: '[]'}
+																					},
+																					{
+																						ctor: '::',
+																						_0: A2(
+																							_elm_lang$html$Html$a,
+																							{
+																								ctor: '::',
+																								_0: _elm_lang$html$Html_Attributes$href('#life-changing'),
+																								_1: {ctor: '[]'}
+																							},
+																							{
+																								ctor: '::',
+																								_0: _elm_lang$html$Html$text(model.lifeContent.title),
+																								_1: {ctor: '[]'}
+																							}),
+																						_1: {ctor: '[]'}
+																					}),
+																				_1: {ctor: '[]'}
+																			}),
+																		_1: {
+																			ctor: '::',
+																			_0: A2(
+																				_elm_lang$html$Html$tr,
+																				{ctor: '[]'},
+																				{
+																					ctor: '::',
+																					_0: A2(
+																						_elm_lang$html$Html$td,
+																						{
+																							ctor: '::',
+																							_0: _elm_lang$html$Html_Attributes$class('communication active'),
+																							_1: {ctor: '[]'}
+																						},
+																						{
+																							ctor: '::',
+																							_0: A2(
+																								_elm_lang$html$Html$a,
+																								{
+																									ctor: '::',
+																									_0: _elm_lang$html$Html_Attributes$href('#philosophies'),
+																									_1: {ctor: '[]'}
+																								},
+																								{
+																									ctor: '::',
+																									_0: _elm_lang$html$Html$text(model.philosophyContent.title),
+																									_1: {ctor: '[]'}
+																								}),
+																							_1: {ctor: '[]'}
+																						}),
+																					_1: {ctor: '[]'}
+																				}),
+																			_1: {
+																				ctor: '::',
+																				_0: A2(
+																					_elm_lang$html$Html$tr,
+																					{ctor: '[]'},
+																					{
+																						ctor: '::',
+																						_0: A2(
+																							_elm_lang$html$Html$td,
+																							{
+																								ctor: '::',
+																								_0: _elm_lang$html$Html_Attributes$class('structure active'),
+																								_1: {ctor: '[]'}
+																							},
+																							{
+																								ctor: '::',
+																								_0: A2(
+																									_elm_lang$html$Html$a,
+																									{
+																										ctor: '::',
+																										_0: _elm_lang$html$Html_Attributes$href('#next-stuff'),
+																										_1: {ctor: '[]'}
+																									},
+																									{
+																										ctor: '::',
+																										_0: _elm_lang$html$Html$text(model.nextContent.title),
+																										_1: {ctor: '[]'}
+																									}),
+																								_1: {ctor: '[]'}
+																							}),
+																						_1: {ctor: '[]'}
+																					}),
+																				_1: {ctor: '[]'}
+																			}
+																		}
+																	}
+																}
+															}),
+														_1: {ctor: '[]'}
+													}),
+												_1: {ctor: '[]'}
+											}),
+										_1: {ctor: '[]'}
+									}
+								}
+							}
+						}
+					}),
+				_1: {ctor: '[]'}
+			}),
+		_1: {ctor: '[]'}
+	};
+};
+var _user$project$Main$mainContent = function (model) {
+	return A2(
+		_elm_lang$html$Html$div,
+		{ctor: '[]'},
+		function () {
+			var _p0 = model.page;
+			switch (_p0.ctor) {
+				case 'Home':
+					return _user$project$Main$pageHome(model);
+				case 'WhyNoRedInk':
+					return _user$project$Main$whyNoRedInk(model);
+				case 'FittingIn':
+					return _user$project$Main$fittingIn(model);
+				case 'LifeChanging':
+					return _user$project$Main$lifeChanging(model);
+				case 'Philosophies':
+					return _user$project$Main$philosophies(model);
+				case 'NextStuff':
+					return _user$project$Main$nextStuff(model);
+				default:
+					return _user$project$Main$pageNotFound(model);
+			}
+		}());
+};
+var _user$project$Main$view = function (model) {
+	return A2(
+		_elm_lang$html$Html$div,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: _user$project$Main$mainContent(model),
+			_1: {ctor: '[]'}
+		});
+};
+var _user$project$Main$notFoundParagraph1 = '\n    I\'d be happy to answer any further questions. Best way to go from here is to contact me via email and \n    I will try to respond right away.\n    ';
+var _user$project$Main$notFoundSubTitle = 'Likely you are still looking to know more about me..';
+var _user$project$Main$notFoundTitle = 'Ooops.. You Stumbled Somewhere';
+var _user$project$Main$nextGithubLink = 'https://github.com/AngeloAnolin/HelloNoRedInk';
+var _user$project$Main$nextPhoneNumber = '+1 780 9538276';
+var _user$project$Main$nextPhoneNumberAttr = 'tel: +17809538276';
+var _user$project$Main$nextEmailAddressAttr = 'mailto: angelo.anolin@gmail.com';
+var _user$project$Main$nextEmailAddress = 'angelo.anolin@gmail.com';
+var _user$project$Main$nextFinalHeader = 'Let\'s take things to the next level...';
+var _user$project$Main$nextTechStack3 = '\n    P.S. I\'ve used Elm to build this application. Link to the corresponding source code can be found \n    on Github. Any feedback on how I can improve this is welcome.\n    ';
+var _user$project$Main$nextTechStack2 = '\n    On my spare time, I have dabbled with different frameworks and languages such as Go, Python and \n    Elixir and front-end frameworks like Elm, VueJS, ReactJS, and AngularJS. This in conjunction with \n    known CSS frameworks like Semantic UI, Bulma, Material Design and the ever-trusted Bootstrap.\n    ';
+var _user$project$Main$nextTechStack1 = '\n    Most of the technology stack I worked with centered on corporate software products such as Microsoft \n    .NET and SQL Server / Oracle database backends. Utilized Javascript mixed with good old jQuery and \n    some Telerik platform library.\n    ';
+var _user$project$Main$nextStackHeader = 'Technology Stack';
+var _user$project$Main$nextWorkExp3 = '\n    Being the senior developer in the conversion and migration of legacy applications to standard \n    web and windows based solution, I’ve analyzed different software systems, ranging from logistics, \n    finance, health and safety and engineering that are key to the business’ operations. Teaming up \n    with other colleagues in the organization, we established coding practices and guidelines that \n    served as the backbone for any new software projects within the company. I’ve also provided \n    mentorship to junior developers and interns in development and implementation of software projects.\n    ';
+var _user$project$Main$nextWorkTitle3 = 'Software Developer @ Brunei Shell Petroleum (February 2007 – November 2009)';
+var _user$project$Main$nextWorkExp2 = '\n    My time with Paterson has been characterized with leading multiple software projects, engaging internal users and business, \n    documentation, and training for released software and providing technical support across different systems. Delivering web \n    and mobile solutions has allowed the company to harness technology to fully support the business and ensured that different \n    locations can access data and be up-to-date with information required to operate their units.\n    ';
+var _user$project$Main$nextWorkTitle2 = 'Senior Programmer @ Paterson GlobalFoods Inc. (February 2010 - February 2012)';
+var _user$project$Main$nextWorkExp1 = '\n    Working for the local government, I am fortunate to have taken different roles, ranging from developing software, \n    researching software usability, and outlining recommended workflows, providing end user support, finding bugs that \n    stops the users from using the system and engaging clients across different business units to address their technology \n    requirements. I have also been assigned in high-impact software projects and pride myself in being able to deliver \n    the outcome required for its success. I’ve also been involved heavily in the adoption of cloud-based email and \n    productivity software that everyone in the city now uses and have explored the software capabilities that lead to \n    the automated migration of all users.\n    ';
+var _user$project$Main$nextWorkTitle1 = 'Systems Analyst @ City of Edmonton (April 2012 - Present)';
+var _user$project$Main$nextWorkHeader = 'Work Experiences';
+var _user$project$Main$nextIntroParagraph = '\n    Thank you for taking the time to read through my spiels. I could go on and on, but I would reserve those when I \n    (hope) I am considered worthy to be working with your awesome team. Briefly is a summary of what I \'ve been \n    engaged with.\n    ';
+var _user$project$Main$nextTitle = 'Next Stuff';
+var _user$project$Main$philosophyParagraph2 = '\n    In essence though, these all rely on an organization with people who passionately care about their craft, \n    backed by an environment with sound engineering principles, solid infrastructure setup, and a constant thrust \n    to deliver and make meaningful impact. NoRedInk I believe embraces the same philosophies.\n    ';
+var _user$project$Main$philosophyParagraph1 = '\n    Building software is a complex endeavour. That\'s why I am an advocate of constantly delivering small valuable \n    iterations of a software product. Business and technology evolve and it is but natural for the solutions in \n    place to grow as well. I always try to take the simplest approach to resolving technical challenges and add \n    features which will be valuable to the end users. I adhere to sound coding principles and believe that we can \n    deliver software that is well-architected that is easy to understand. Software that is easy to understand \n    translates to better support, maintainability and extensibility.\n    ';
+var _user$project$Main$philosophySubTitle = '\n    Some thoughts on Software Development\n    ';
+var _user$project$Main$philosophyTitle = 'Philosophies (on Software)';
+var _user$project$Main$lifeParagraph5 = '\n    We spend more than a third of our lives at work - doing meaningful stuff in an organization that supports it means changing your life for the better.\n    ';
+var _user$project$Main$lifeParagraph4 = '\n    Trust - allowing people to work remotely is an essence of trust. By being trusted, I acknowldege a sense of maintaining a high level of confidence afforded by my colleagues and the company.\n    ';
+var _user$project$Main$lifeParagraph3 = '\n    Focus - Having the autonomy and flexibility means that I can focus and direct my energy towards the important. Less distractions and hassles from commuting to office chaos and politics means my focus is zeroed in on the task at hand.\n    ';
+var _user$project$Main$lifeParagraph2 = '\n    Flexibility - Unless I know there is something important that needs to be done, I can structure my schedule so that \n    I work when I can be most productive and contributing.\n    ';
+var _user$project$Main$lifeParagraph1 = '\n    Autonomy - Working at your pace anywhere and anytime aligned with the direction of the organization is the prime \n    ingredient towards delivering stuff that has relevant value.\n    ';
+var _user$project$Main$lifeSubTitle = '\n    Some reasons I believe why working for NoRedInk could alter my life for the better.\n    ';
+var _user$project$Main$lifeTitle = 'Working with NoRedInk Could Be Life-Changing';
+var _user$project$Main$fitParagraph4 = '\n    Alongside the process of making meaningful contributions is by establishing trust and\n    confidence with my peers by staying humble and hungry. Acting with humility and a \n    curious mind brewing with desire to deliver and exceed expectations. I\'d relentlessly\n    pursue getting the trust, respect, and confidence of everyone on the team. Fitting in  \n    does take due diligence and rigour but I know that the process is worthwhile of itself.\n    ';
+var _user$project$Main$fitParagraph3 = '\n    The next step is to take on larger responsibilities, which defines major pieces of \n    functionality offered through the system. This can be a new feature, or speeding up \n    some facets of the software where the impact is a huge win for the company. \n    ';
+var _user$project$Main$fitParagraph2 = '\n    As soon as I have grown some familiarity with the technologies in place at NoRedInk,\n    the next step is to take on small pieces of issues which I feel confidence in being \n    able to resolve on my own. This will further reinforce my knowledge of the systems \n    in place.\n    ';
+var _user$project$Main$fitParagraph1 = '\n    Although I may have a lot of experiences building software systems, using Elm\n    as a primary language means I am venturing into a new landscape for which I have \n    little exposure. That means I\'d spend a lot of time learning the language,\n    and how it is being used to power the solutions offered by NoRedInk.\n    ';
+var _user$project$Main$fitSubTitle = 'How Would I be a Good Fit at NoRedInk?';
+var _user$project$Main$fitTitle = 'Fitting In';
+var _user$project$Main$whyParagraph3 = '\n    The chance to do and deliver amazing things every-single-day is something \n    I have always aspired. Working alongside with people who are determined, focused\n    whilst still embracing fun and challenges are very rare nowadays in a lot of   \n    organizations. Something tells me that NoRedInk has embraced values and the\n    potential to grow and learn is essentially reinforced.\n    ';
+var _user$project$Main$whyParagraph2 = '\n    Technology aside, your mission and commitment to bring empathy and thoughtfulness,\n    alongside leaving a real impact to the teachers and students in the world through\n    your products and services is an endeavour worth being a part of. I\'d like to be \n    making meaningful contributions.\n    ';
+var _user$project$Main$whyParagraph1 = '\n    Your core values, especially on Relentlessly Improve resontated so much in me.\n    I\'ve recently started learning Elm, and is getting more passionate on using it \n    to build and deliver resilient software products. Being in the same organization\n    with the best people on Elm such as Evan and Russ, means that I would realize the \n    possibility of constantly learning and getting better with the language. \n    ';
+var _user$project$Main$whyTitle = 'Why NoRedInk';
+var _user$project$Main$Model = F8(
+	function (a, b, c, d, e, f, g, h) {
+		return {page: a, homeContent: b, whyContent: c, fitContent: d, lifeContent: e, philosophyContent: f, nextContent: g, notFoundContent: h};
+	});
+var _user$project$Main$HomeContent = F5(
+	function (a, b, c, d, e) {
+		return {title1: a, title2: b, title3: c, title4: d, title5: e};
+	});
+var _user$project$Main$WhyContent = F4(
+	function (a, b, c, d) {
+		return {title: a, paragraph1: b, paragraph2: c, paragraph3: d};
+	});
+var _user$project$Main$FitContent = F6(
+	function (a, b, c, d, e, f) {
+		return {title: a, subTitle: b, paragraph1: c, paragraph2: d, paragraph3: e, paragraph4: f};
+	});
+var _user$project$Main$LifeContent = F7(
+	function (a, b, c, d, e, f, g) {
+		return {title: a, subTitle: b, paragraph1: c, paragraph2: d, paragraph3: e, paragraph4: f, paragraph5: g};
+	});
+var _user$project$Main$PhilosophyContent = F4(
+	function (a, b, c, d) {
+		return {title: a, subTitle: b, paragraph1: c, paragraph2: d};
+	});
+var _user$project$Main$NextContent = function (a) {
+	return function (b) {
+		return function (c) {
+			return function (d) {
+				return function (e) {
+					return function (f) {
+						return function (g) {
+							return function (h) {
+								return function (i) {
+									return function (j) {
+										return function (k) {
+											return function (l) {
+												return function (m) {
+													return function (n) {
+														return function (o) {
+															return function (p) {
+																return function (q) {
+																	return function (r) {
+																		return function (s) {
+																			return {title: a, introParagraph: b, workHeader: c, workTitle1: d, workExp1: e, workTitle2: f, workExp2: g, workTitle3: h, workExp3: i, stackHeader: j, techStack1: k, techStack2: l, techStack3: m, finalHeader: n, emailAddress: o, emailAddressAttr: p, phoneNumber: q, phoneNumberAttr: r, githubLink: s};
+																		};
+																	};
+																};
+															};
+														};
+													};
+												};
+											};
+										};
+									};
+								};
+							};
+						};
+					};
+				};
+			};
+		};
+	};
+};
+var _user$project$Main$NotFoundContent = F3(
+	function (a, b, c) {
+		return {title: a, subTitle: b, paragraph1: c};
+	});
+var _user$project$Main$NotFound = {ctor: 'NotFound'};
+var _user$project$Main$NextStuff = {ctor: 'NextStuff'};
+var _user$project$Main$Philosophies = {ctor: 'Philosophies'};
+var _user$project$Main$LifeChanging = {ctor: 'LifeChanging'};
+var _user$project$Main$FittingIn = {ctor: 'FittingIn'};
+var _user$project$Main$WhyNoRedInk = {ctor: 'WhyNoRedInk'};
+var _user$project$Main$Home = {ctor: 'Home'};
+var _user$project$Main$routeParser = _evancz$url_parser$UrlParser$oneOf(
+	{
+		ctor: '::',
+		_0: A2(_evancz$url_parser$UrlParser$map, _user$project$Main$Home, _evancz$url_parser$UrlParser$top),
+		_1: {
+			ctor: '::',
+			_0: A2(
+				_evancz$url_parser$UrlParser$map,
+				_user$project$Main$WhyNoRedInk,
+				_evancz$url_parser$UrlParser$s('why-noredink')),
+			_1: {
+				ctor: '::',
+				_0: A2(
+					_evancz$url_parser$UrlParser$map,
+					_user$project$Main$FittingIn,
+					_evancz$url_parser$UrlParser$s('fitting-in')),
+				_1: {
+					ctor: '::',
+					_0: A2(
+						_evancz$url_parser$UrlParser$map,
+						_user$project$Main$LifeChanging,
+						_evancz$url_parser$UrlParser$s('life-changing')),
+					_1: {
+						ctor: '::',
+						_0: A2(
+							_evancz$url_parser$UrlParser$map,
+							_user$project$Main$Philosophies,
+							_evancz$url_parser$UrlParser$s('philosophies')),
+						_1: {
+							ctor: '::',
+							_0: A2(
+								_evancz$url_parser$UrlParser$map,
+								_user$project$Main$NextStuff,
+								_evancz$url_parser$UrlParser$s('next-stuff')),
+							_1: {ctor: '[]'}
+						}
+					}
+				}
+			}
+		}
+	});
+var _user$project$Main$decode = function (location) {
+	return A2(_evancz$url_parser$UrlParser$parseHash, _user$project$Main$routeParser, location);
+};
+var _user$project$Main$urlUpdate = F2(
+	function (location, model) {
+		var _p1 = _user$project$Main$decode(location);
+		if (_p1.ctor === 'Nothing') {
+			return {
+				ctor: '_Tuple2',
+				_0: _elm_lang$core$Native_Utils.update(
+					model,
+					{page: _user$project$Main$NotFound}),
+				_1: _elm_lang$core$Platform_Cmd$none
+			};
+		} else {
+			return {
+				ctor: '_Tuple2',
+				_0: _elm_lang$core$Native_Utils.update(
+					model,
+					{page: _p1._0}),
+				_1: _elm_lang$core$Platform_Cmd$none
+			};
+		}
+	});
+var _user$project$Main$init = function (location) {
+	var _p2 = A2(
+		_user$project$Main$urlUpdate,
+		location,
+		{
+			page: _user$project$Main$Home,
+			homeContent: A5(_user$project$Main$HomeContent, _user$project$Main$whyTitle, _user$project$Main$fitTitle, _user$project$Main$lifeTitle, _user$project$Main$philosophyTitle, _user$project$Main$nextTitle),
+			whyContent: A4(_user$project$Main$WhyContent, _user$project$Main$whyTitle, _user$project$Main$whyParagraph1, _user$project$Main$whyParagraph2, _user$project$Main$whyParagraph3),
+			fitContent: A6(_user$project$Main$FitContent, _user$project$Main$fitTitle, _user$project$Main$fitSubTitle, _user$project$Main$fitParagraph1, _user$project$Main$fitParagraph2, _user$project$Main$fitParagraph3, _user$project$Main$fitParagraph4),
+			lifeContent: A7(_user$project$Main$LifeContent, _user$project$Main$lifeTitle, _user$project$Main$lifeSubTitle, _user$project$Main$lifeParagraph1, _user$project$Main$lifeParagraph2, _user$project$Main$lifeParagraph3, _user$project$Main$lifeParagraph4, _user$project$Main$lifeParagraph5),
+			philosophyContent: A4(_user$project$Main$PhilosophyContent, _user$project$Main$philosophyTitle, _user$project$Main$philosophySubTitle, _user$project$Main$philosophyParagraph1, _user$project$Main$philosophyParagraph2),
+			nextContent: _user$project$Main$NextContent(_user$project$Main$nextTitle)(_user$project$Main$nextIntroParagraph)(_user$project$Main$nextWorkHeader)(_user$project$Main$nextWorkTitle1)(_user$project$Main$nextWorkExp1)(_user$project$Main$nextWorkTitle2)(_user$project$Main$nextWorkExp2)(_user$project$Main$nextWorkTitle3)(_user$project$Main$nextWorkExp3)(_user$project$Main$nextStackHeader)(_user$project$Main$nextTechStack1)(_user$project$Main$nextTechStack2)(_user$project$Main$nextTechStack3)(_user$project$Main$nextFinalHeader)(_user$project$Main$nextEmailAddress)(_user$project$Main$nextEmailAddressAttr)(_user$project$Main$nextPhoneNumber)(_user$project$Main$nextPhoneNumberAttr)(_user$project$Main$nextGithubLink),
+			notFoundContent: A3(_user$project$Main$NotFoundContent, _user$project$Main$notFoundTitle, _user$project$Main$notFoundSubTitle, _user$project$Main$notFoundParagraph1)
+		});
+	var model = _p2._0;
+	var urlCmd = _p2._1;
+	return {
+		ctor: '_Tuple2',
+		_0: model,
+		_1: _elm_lang$core$Platform_Cmd$batch(
+			{
+				ctor: '::',
+				_0: urlCmd,
+				_1: {ctor: '[]'}
+			})
+	};
+};
+var _user$project$Main$update = F2(
+	function (msg, model) {
+		var _p3 = msg;
+		return A2(_user$project$Main$urlUpdate, _p3._0, model);
+	});
+var _user$project$Main$UrlChange = function (a) {
+	return {ctor: 'UrlChange', _0: a};
+};
+var _user$project$Main$main = A2(
+	_elm_lang$navigation$Navigation$program,
+	_user$project$Main$UrlChange,
+	{
+		view: _user$project$Main$view,
+		update: _user$project$Main$update,
+		subscriptions: _elm_lang$core$Basics$always(_elm_lang$core$Platform_Sub$none),
+		init: _user$project$Main$init
+	})();
