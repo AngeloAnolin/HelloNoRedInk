@@ -10364,7 +10364,7 @@ var _user$project$Main$philosophies = function (model) {
 														_0: _elm_lang$html$Html_Attributes$class('preface'),
 														_1: {
 															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$src('assets/4_four.jpg'),
+															_0: _elm_lang$html$Html_Attributes$src('assets/4_Four.jpg'),
 															_1: {ctor: '[]'}
 														}
 													},
@@ -10522,7 +10522,7 @@ var _user$project$Main$lifeChanging = function (model) {
 														_0: _elm_lang$html$Html_Attributes$class('preface'),
 														_1: {
 															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$src('assets/3_three.jpg'),
+															_0: _elm_lang$html$Html_Attributes$src('assets/3_Three.jpg'),
 															_1: {ctor: '[]'}
 														}
 													},
