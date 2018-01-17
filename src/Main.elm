@@ -37,6 +37,7 @@ type alias HomeContent =
 
 type alias WhyContent = 
     { title : String
+    , paragraph0 : String
     , paragraph1 : String
     , paragraph2 : String
     , paragraph3 : String
@@ -109,6 +110,14 @@ type Page
 -- Why Contents
 whyTitle : String
 whyTitle = "Why NoRedInk"
+
+whyParagraph0 : String
+whyParagraph0 = 
+    """
+    Hello NoRedInk! I am Angelo and I'd like to be considered for your Front-End
+    Engineer position.
+    """
+
 
 whyParagraph1 : String
 whyParagraph1 = 
@@ -400,7 +409,7 @@ init location =
         ( model, urlCmd ) = 
             urlUpdate location { page = Home
                                , homeContent = HomeContent whyTitle fitTitle lifeTitle philosophyTitle nextTitle
-                               , whyContent = WhyContent whyTitle whyParagraph1 whyParagraph2 whyParagraph3 
+                               , whyContent = WhyContent whyTitle whyParagraph0 whyParagraph1 whyParagraph2 whyParagraph3 
                                , fitContent = FitContent fitTitle fitSubTitle fitParagraph1 fitParagraph2 fitParagraph3 fitParagraph4
                                , lifeContent = LifeContent lifeTitle lifeSubTitle lifeParagraph1 lifeParagraph2 lifeParagraph3 lifeParagraph4 lifeParagraph5
                                , philosophyContent = PhilosophyContent philosophyTitle philosophySubTitle philosophyParagraph1 philosophyParagraph2
@@ -534,7 +543,8 @@ whyNoRedInk model =
                     , img [ class "preface", src "assets/1_one.jpg"] []
                     ]
                 , div [ class "text-container" ]
-                    [ p [] [ text model.whyContent.paragraph1 ]
+                    [ p [] [ text model.whyContent.paragraph0 ]
+                    , p [] [ text model.whyContent.paragraph1 ]
                     , p [] [ text model.whyContent.paragraph2 ]
                     , p [] [ text model.whyContent.paragraph3 ]
                     ]

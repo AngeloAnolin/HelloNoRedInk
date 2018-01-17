@@ -10924,7 +10924,7 @@ var _user$project$Main$whyNoRedInk = function (model) {
 													{ctor: '[]'},
 													{
 														ctor: '::',
-														_0: _elm_lang$html$Html$text(model.whyContent.paragraph1),
+														_0: _elm_lang$html$Html$text(model.whyContent.paragraph0),
 														_1: {ctor: '[]'}
 													}),
 												_1: {
@@ -10934,7 +10934,7 @@ var _user$project$Main$whyNoRedInk = function (model) {
 														{ctor: '[]'},
 														{
 															ctor: '::',
-															_0: _elm_lang$html$Html$text(model.whyContent.paragraph2),
+															_0: _elm_lang$html$Html$text(model.whyContent.paragraph1),
 															_1: {ctor: '[]'}
 														}),
 													_1: {
@@ -10944,10 +10944,21 @@ var _user$project$Main$whyNoRedInk = function (model) {
 															{ctor: '[]'},
 															{
 																ctor: '::',
-																_0: _elm_lang$html$Html$text(model.whyContent.paragraph3),
+																_0: _elm_lang$html$Html$text(model.whyContent.paragraph2),
 																_1: {ctor: '[]'}
 															}),
-														_1: {ctor: '[]'}
+														_1: {
+															ctor: '::',
+															_0: A2(
+																_elm_lang$html$Html$p,
+																{ctor: '[]'},
+																{
+																	ctor: '::',
+																	_0: _elm_lang$html$Html$text(model.whyContent.paragraph3),
+																	_1: {ctor: '[]'}
+																}),
+															_1: {ctor: '[]'}
+														}
 													}
 												}
 											}),
@@ -11320,6 +11331,7 @@ var _user$project$Main$fitTitle = 'Fitting In';
 var _user$project$Main$whyParagraph3 = '\n    The chance to do and deliver amazing things every-single-day is something \n    I have always aspired. Working alongside with people who are determined, focused\n    whilst still embracing fun and challenges are very rare nowadays in a lot of   \n    organizations. Something tells me that NoRedInk has embraced values and the\n    potential to grow and learn is essentially reinforced.\n    ';
 var _user$project$Main$whyParagraph2 = '\n    Technology aside, your mission and commitment to bring empathy and thoughtfulness,\n    alongside leaving a real impact to the teachers and students in the world through\n    your products and services is an endeavour worth being a part of. I\'d like to be \n    making meaningful contributions.\n    ';
 var _user$project$Main$whyParagraph1 = '\n    Your core values, especially on Relentlessly Improve resontated so much in me.\n    I\'ve recently started learning Elm, and is getting more passionate on using it \n    to build and deliver resilient software products. Being in the same organization\n    with the best people on Elm such as Evan and Russ, means that I would realize the \n    possibility of constantly learning and getting better with the language. \n    ';
+var _user$project$Main$whyParagraph0 = '\n    Hello NoRedInk! I am Angelo and I\'d like to be considered for your Front-End\n    Engineer position.\n    ';
 var _user$project$Main$whyTitle = 'Why NoRedInk';
 var _user$project$Main$Model = F8(
 	function (a, b, c, d, e, f, g, h) {
@@ -11329,9 +11341,9 @@ var _user$project$Main$HomeContent = F5(
 	function (a, b, c, d, e) {
 		return {title1: a, title2: b, title3: c, title4: d, title5: e};
 	});
-var _user$project$Main$WhyContent = F4(
-	function (a, b, c, d) {
-		return {title: a, paragraph1: b, paragraph2: c, paragraph3: d};
+var _user$project$Main$WhyContent = F5(
+	function (a, b, c, d, e) {
+		return {title: a, paragraph0: b, paragraph1: c, paragraph2: d, paragraph3: e};
 	});
 var _user$project$Main$FitContent = F6(
 	function (a, b, c, d, e, f) {
@@ -11467,7 +11479,7 @@ var _user$project$Main$init = function (location) {
 		{
 			page: _user$project$Main$Home,
 			homeContent: A5(_user$project$Main$HomeContent, _user$project$Main$whyTitle, _user$project$Main$fitTitle, _user$project$Main$lifeTitle, _user$project$Main$philosophyTitle, _user$project$Main$nextTitle),
-			whyContent: A4(_user$project$Main$WhyContent, _user$project$Main$whyTitle, _user$project$Main$whyParagraph1, _user$project$Main$whyParagraph2, _user$project$Main$whyParagraph3),
+			whyContent: A5(_user$project$Main$WhyContent, _user$project$Main$whyTitle, _user$project$Main$whyParagraph0, _user$project$Main$whyParagraph1, _user$project$Main$whyParagraph2, _user$project$Main$whyParagraph3),
 			fitContent: A6(_user$project$Main$FitContent, _user$project$Main$fitTitle, _user$project$Main$fitSubTitle, _user$project$Main$fitParagraph1, _user$project$Main$fitParagraph2, _user$project$Main$fitParagraph3, _user$project$Main$fitParagraph4),
 			lifeContent: A7(_user$project$Main$LifeContent, _user$project$Main$lifeTitle, _user$project$Main$lifeSubTitle, _user$project$Main$lifeParagraph1, _user$project$Main$lifeParagraph2, _user$project$Main$lifeParagraph3, _user$project$Main$lifeParagraph4, _user$project$Main$lifeParagraph5),
 			philosophyContent: A4(_user$project$Main$PhilosophyContent, _user$project$Main$philosophyTitle, _user$project$Main$philosophySubTitle, _user$project$Main$philosophyParagraph1, _user$project$Main$philosophyParagraph2),
